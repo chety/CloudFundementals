@@ -18,3 +18,5 @@ from _lots of code duplication_
 - ✔️ `IP Whitelisting`, `Rate limiting`(limit call to specific endpoints/microservices)
 - ⚠️ The disadvantage of this mechanism is `Single Point Of Failure`. If our APIGateway is gone then our whole app will be crashed too
 For this scenerio we can create multiple instance of APIGateway
+
+Some implementations of APIGateway are `Kong`,`Ambassador`, `Ocelot`, `Azure API Management`
