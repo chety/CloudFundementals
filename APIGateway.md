@@ -7,6 +7,7 @@
 ### Advantages of APIGateway
 - :fire: All microservices IP are private now. Microservices and APIGateway are in the same `secured network`
 - :fire: Only APIGateway IP address is publicly exposed over internet. **That means less surface for attackers, more secure**
+- 🎆`APIGateway` _excepts all calls and routes them to backend APIs_.
 - ✔️ `Latency` problem is solved by `aggregate pattern`. Instead of making http call to each  microservices than aggreate these data
 in frontend, we just make a http call to APIGateway and than it handles the rest. Since they are in the same secured network
 it is much more performant
